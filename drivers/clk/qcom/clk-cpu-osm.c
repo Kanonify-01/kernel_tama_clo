@@ -832,6 +832,7 @@ static int osm_cpufreq_cpu_init(struct cpufreq_policy *policy)
 
 	policy->cpuinfo.transition_latency = MIN_RATE_LIMIT_US;
 	policy->fast_switch_possible = true;
+	policy->fast_switch_possible = true;
 	policy->driver_data = c;
 
 	cpumask_copy(policy->cpus, &c->related_cpus);
