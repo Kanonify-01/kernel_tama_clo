@@ -62,6 +62,7 @@
 			efficiency = <607>;
 			clock-frequency = <1766400000>;
 			cache-size = <0x8000>;
+			dynamic-power-coefficient = <100>;
 			cpu-release-addr = <0x0 0x90000000>;
 			qcom,lmh-dcvs = <&lmh_dcvs0>;
 			#cooling-cells = <2>;
@@ -99,6 +100,7 @@
 			enable-method = "psci";
 			efficiency = <607>;
 			clock-frequency = <1766400000>;
+			dynamic-power-coefficient = <100>;
 			cache-size = <0x8000>;
 			cpu-release-addr = <0x0 0x90000000>;
 			qcom,lmh-dcvs = <&lmh_dcvs0>;
@@ -163,6 +165,7 @@
 			enable-method = "psci";
 			efficiency = <607>;
 			clock-frequency = <1766400000>;
+			dynamic-power-coefficient = <100>;
 			cache-size = <0x8000>;
 			cpu-release-addr = <0x0 0x90000000>;
 			qcom,lmh-dcvs = <&lmh_dcvs0>;
@@ -195,6 +198,7 @@
 			enable-method = "psci";
 			efficiency = <1024>;
 			clock-frequency = <2803200000>;
+			dynamic-power-coefficient = <396>;
 			cache-size = <0x20000>;
 			cpu-release-addr = <0x0 0x90000000>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
@@ -227,6 +231,7 @@
 			enable-method = "psci";
 			efficiency = <1024>;
 			clock-frequency = <2803200000>;
+			dynamic-power-coefficient = <396>;
 			cache-size = <0x20000>;
 			cpu-release-addr = <0x0 0x90000000>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
@@ -259,6 +264,7 @@
 			enable-method = "psci";
 			efficiency = <1024>;
 			clock-frequency = <2803200000>;
+			dynamic-power-coefficient = <396>;
 			cache-size = <0x20000>;
 			cpu-release-addr = <0x0 0x90000000>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
@@ -291,6 +297,7 @@
 			enable-method = "psci";
 			efficiency = <1024>;
 			clock-frequency = <2803200000>;
+			dynamic-power-coefficient = <396>;
 			cache-size = <0x20000>;
 			cpu-release-addr = <0x0 0x90000000>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
